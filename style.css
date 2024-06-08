@@ -1,0 +1,253 @@
+*{
+    margin:0;
+    font-family:arial;
+    border:border-box;
+}
+.navbar{
+    height:65px;
+    border: 2px solid rgb(216, 228, 231);
+    color:white ;
+    background-color: #E8F8F5;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly ;   
+}
+.navlogo{
+    margin-top: 5px;
+    width:50px;
+}
+.logo{
+    background-image: url(work-logo.png);
+    background-size:contain;
+    height: 50px;
+}
+.border{
+    border:1.5px solid transparent;
+    padding-bottom:2px;
+}
+.border:hover{
+    border:1.5px solid #76D7C4;
+}
+.address{
+    color:#38af97;
+    font-size:3rem;
+    margin-top:10px;
+    font-weight: bolder;
+}
+.options a{
+    font-size: 13px;
+    color:black;
+    display:inline;
+    margin-left: 50px;
+}
+.sign button{
+    background-color:#76D7C4;
+    border:none;
+    font-size: 16px;
+    text-align:center;
+    padding:15px 32px;
+}
+.image{
+    width:400px; 
+    margin-top:20px;
+    margin-bottom: 10PX;
+    margin-right:25px;
+    float:right;
+}
+.hero-msg{
+    margin:50px 40px 15px 40px;
+}
+.hero-msg a{
+    color:#1ABC9C;
+    font-weight: bolder;
+    font-style: inherit;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:50px;
+}
+.hero-msg h1{
+    font-size:50px;
+    font-weight: bolder;
+}
+.hero-msg p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#262b2a
+}
+.search-container{
+    display:flex;
+    align-items:center;
+    background-color: white;
+    border-radius:10px;
+    box-shadow:0 2px 4px rgba(0,0,0,0.1);
+    overflow:hidden;
+    justify-content: space-evenly;
+    width:400px;
+    margin-left: 40px;
+}
+.search-icon{
+    padding:10px;
+    margin-left:10px;
+    color:rgb(59, 168, 187);
+}
+.search-input{
+    border:none;
+    padding:15px 10px;
+    font-size:16px;
+    outline:none;
+    flex:1;
+}
+.search-button{
+    background-color:#76D7C4;
+    padding:10px 30px;
+    border:none;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+    margin-right:5px;
+    border-radius:20px;
+    text-align: center;   
+}
+.panel{
+    text-align: center;
+    padding:20px 0;
+    background-color: #D1F2EB;
+    margin-top:2rem;
+}
+.panel h2{
+    margin-top:2rem;
+    font-size:20px;
+}
+.logos{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.am{
+    width:150px;
+}
+.go{
+    width:100px;
+}
+.lin{
+    width:120px;
+}
+.bri{
+    width:100px;
+}
+.dow{
+    width:100px;
+}
+.course h1{
+    text-align: center;
+    margin-top:20px;
+    color:grey;
+}
+.course p{
+    margin-left:15rem
+}
+.content{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+.box{
+    margin:20px;
+    width:300px;
+    background-color: white;
+    border-radius:8px;
+    overflow:hidden;
+    border:2px solid black;
+}
+.box-img{
+    height:200px;
+    object-fit:cover;
+    width:100%;
+}
+.box-topic{
+    padding:16px;
+}
+.box-topic h2{
+    margin-top:0;
+    font-size: 1.5rem;
+}
+.checked{
+    color:orange;
+}
+.box-footer{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.button{
+    background-color:#1ABC9C;
+    padding:10px 16px;
+    border:none;
+    color:white;
+    cursor:pointer;
+    font-size:1em;
+    margin-right:16px;
+}
+.workimage{
+    width:650px;
+    margin-right:40px;
+    float:right;
+    border-radius: 20%;
+}
+.perks{
+    color:#1ABC9C;
+    margin-left: 60px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 30px;
+}
+.list{
+    display:flex;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+ul li::before{
+    content:"\2022";
+    color:#1ABC9C;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 22px;
+    width: 20px; margin-left: 40px;
+}
+.panel1{
+    background-color: #45a390;
+    color:white;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 5rem;
+}
+.panel2{
+    background-color:#3aa18d ;
+    color:white;
+    font-size: 20px;
+    height:250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display:block; gap:10px;
+    font-size:0.95rem;
+    margin-top: 10px;
+    color:#D1F2EB;
+}
+.panel3{
+    background-color: #2f9984;
+    color:white;
+    height:50px;
+    font-size: 1rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 20px;
+}
